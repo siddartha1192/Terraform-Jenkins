@@ -83,7 +83,7 @@ resource "aws_security_group" "main_sg" {
 
 # Create an EC2 Instance
 resource "aws_instance" "main_instance" {
-  ami           = "ami-0c55b159cbfafe1f0"  # Amazon Linux 2 AMI in us-east-1, update as needed
+  ami           = "ami-04a81a99f5ec58529"  # Amazon Linux 2 AMI in us-east-1, update as needed
   instance_type = "t2.micro"
 
   subnet_id              = aws_subnet.main_subnet.id
