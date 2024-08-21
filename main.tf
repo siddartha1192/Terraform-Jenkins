@@ -8,5 +8,5 @@ resource "aws_instance" "foo" {
   tags = {
       Name = "TF-Instance"
   }
-  subnet_id_value = "subnet-05b2f7dc25ada61da".
+  subnet_id_value = "subnet-05c7561c2db5871e8".
 }
